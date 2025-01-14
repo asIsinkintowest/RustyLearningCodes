@@ -21,7 +21,7 @@ if [ ! -d "$TEMPLATE_DIR" ]; then
     exit 1
 fi
 
-# 创建项目目录
+# 创建项目的目录
 PROJECT_DIR=$(pwd)/$PROJECT_NAME
 if [ -d "$PROJECT_DIR" ]; then
     echo "Error: Project Directory $PROJECT_DIR Already Exists."
